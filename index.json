@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": 1,
-      "title": "HTML CSS JavaScript ",
+      "title": "HTML CSS JavaScript",
       "instructor": "Sarah Johnson",
       "category": "Web Development",
       "image": "https://foolishdeveloper.com/wp-content/uploads/2023/12/30-HTML-CSS-and-Javascript-Projects.png",
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "title": "JavaScript: Beginner to Advanced",
+      "title": "JavaScript Beginner to Advanced",
       "instructor": "Marcus Chen",
       "category": "JavaScript",
       "image": "https://m.media-amazon.com/images/I/61ZxqBT1dvL._UF1000,1000_QL80_.jpg",
@@ -82,7 +82,7 @@
     },
     {
       "id": 6,
-      "title": "UI/UX Design Fundamentals",
+      "title": "UI UX Design Fundamentals",
       "instructor": "Liam Torres",
       "category": "UI/UX Design",
       "image": "https://wefttechnologies.com/wp-content/uploads/2025/03/UIUX-Design-Services-.jpg",
@@ -95,95 +95,177 @@
       "level": "Beginner",
       "duration": "30 hrs",
       "lessons": 175
-    },
-    {
-      "id": 7,
-      "title": "Node.js & Express Backend",
-      "instructor": "Yuki Tanaka",
-      "category": "Backend",
-      "image": "https://codeit.com.np/storage/01J5CG8QJYWM82K1JE6SESQAEB.png",
-      "rating": 4.8,
-      "reviews": 4120,
-      "price": 49.99,
-      "originalPrice": 129.99,
-      "badge": "Top Rated",
-      "badgeColor": "emerald",
-      "level": "Intermediate",
-      "duration": "45 hrs",
-      "lessons": 265
-    },
-    {
-      "id": 8,
-      "title": "AI & Machine Learning Bootcamp",
-      "instructor": "Dr. Raj Patel",
-      "category": "AI & Machine Learning",
-      "image": "https://img-c.udemycdn.com/course/480x270/6974365_873b_2.jpg?w=3840&q=75",
-      "rating": 4.9,
-      "reviews": 6341,
-      "price": 69.99,
-      "originalPrice": 199.99,
-      "badge": "Trending",
-      "badgeColor": "fuchsia",
-      "level": "Advanced",
-      "duration": "72 hrs",
-      "lessons": 420
     }
   ],
+
+  "books": [
+    {
+      "id": 1,
+      "title": "JavaScript The Complete Guide",
+      "author": "John Smith",
+      "category": "JavaScript",
+      "image": "https://m.media-amazon.com/images/I/61b5YG6Y1rL.jpg",
+      "rating": 4.8,
+      "price": 19.99,
+      "pages": 450,
+      "badge": "Popular"
+    },
+    {
+      "id": 2,
+      "title": "React Explained",
+      "author": "Emma Williams",
+      "category": "React",
+      "image": "https://m.media-amazon.com/images/I/71U1bL5vGGS.jpg",
+      "rating": 4.9,
+      "price": 24.99,
+      "pages": 520,
+      "badge": "Bestseller"
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS Design",
+      "author": "Priya Sharma",
+      "category": "Web Development",
+      "image": "https://m.media-amazon.com/images/I/61X4L8Q+YAL.jpg",
+      "rating": 4.7,
+      "price": 18.99,
+      "pages": 320,
+      "badge": "New"
+    },
+    {
+      "id": 4,
+      "title": "Node.js Backend Development",
+      "author": "Yuki Tanaka",
+      "category": "Backend",
+      "image": "https://m.media-amazon.com/images/I/81B1+h4o5FL.jpg",
+      "rating": 4.8,
+      "price": 22.99,
+      "pages": 610,
+      "badge": "Top Rated"
+    }
+  ],
+
+  "videos": [
+    {
+      "id": 1,
+      "title": "React Crash Course",
+      "instructor": "Traversy Media",
+      "category": "React",
+      "thumbnail": "https://i.ytimg.com/vi/w7ejDZ8SWv8/maxresdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+      "duration": "2h 30m",
+      "views": "1.2M"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Full Course",
+      "instructor": "freeCodeCamp",
+      "category": "JavaScript",
+      "thumbnail": "https://i.ytimg.com/vi/jS4aFq5-91M/maxresdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=jS4aFq5-91M",
+      "duration": "8h 12m",
+      "views": "3.5M"
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS Tutorial",
+      "instructor": "CodeWithHarry",
+      "category": "Web Development",
+      "thumbnail": "https://i.ytimg.com/vi/lCxcTsOHrjo/maxresdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+      "duration": "1h 50m",
+      "views": "890K"
+    },
+    {
+      "id": 4,
+      "title": "Vue JS Beginner Guide",
+      "instructor": "Net Ninja",
+      "category": "Vue",
+      "thumbnail": "https://i.ytimg.com/vi/qZXt1Aom3Cs/maxresdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=qZXt1Aom3Cs",
+      "duration": "3h 10m",
+      "views": "640K"
+    }
+  ],
+
   "testimonials": [
     {
       "id": 1,
       "name": "Jessica Park",
       "role": "Frontend Developer @ Google",
-      "avatar": "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+      "avatar": "https://i.pravatar.cc/150?img=1",
       "rating": 5,
-      "text": "LearnFlow completely transformed my career. The structured curriculum and hands-on projects gave me the confidence to land my dream job at Google. I can't recommend it enough!",
+      "text": "LearnFlow completely transformed my career.",
       "course": "React Frontend Course"
     },
     {
       "id": 2,
       "name": "Carlos Mendes",
       "role": "Full Stack Engineer @ Stripe",
-      "avatar": "https://www.youtube.com/watch?v=LzMnsfqjzkA",
+      "avatar": "https://i.pravatar.cc/150?img=2",
       "rating": 5,
-      "text": "I went from zero programming knowledge to a full-stack engineer in 8 months using LearnFlow. The instructors are world-class, and the community support is incredible.",
-      "course": "JavaScript: Beginner to Advanced"
+      "text": "Amazing platform with world class instructors.",
+      "course": "JavaScript Beginner to Advanced"
     },
     {
       "id": 3,
       "name": "Amara Osei",
       "role": "UX Designer @ Airbnb",
-      "avatar": "https://www.youtube.com/watch?v=e4dbLhHpYHQ",
+      "avatar": "https://i.pravatar.cc/150?img=3",
       "rating": 5,
-      "text": "The UI/UX design courses here are on another level. Real-world projects, thoughtful feedback, and a learning path that actually makes sense. LearnFlow is the best investment I've made.",
-      "course": "UI/UX Design Fundamentals"
+      "text": "The UI UX courses are extremely practical.",
+      "course": "UI UX Design Fundamentals"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "icon": "🌐",
+      "courses": 245,
+      "color": "from-blue-500 to-cyan-400",
+      "desc": "Build modern websites"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "icon": "⚡",
+      "courses": 189,
+      "color": "from-yellow-500 to-amber-400",
+      "desc": "Master JavaScript"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "icon": "⚛️",
+      "courses": 98,
+      "color": "from-cyan-500 to-teal-400",
+      "desc": "Build powerful React apps"
     },
     {
       "id": 4,
-      "name": "Wei Zhang",
-      "role": "ML Engineer @ OpenAI",
-      "avatar": "https://www.youtube.com/watch?v=7IgVGSaQPaw",
-      "rating": 5,
-      "text": "Dr. Patel's AI & ML course is phenomenal. The depth of content, the clarity of explanations, and the cutting-edge topics covered helped me transition into AI engineering seamlessly.",
-      "course": "AI & Machine Learning Bootcamp"
+      "name": "Vue",
+      "icon": "💚",
+      "courses": 76,
+      "color": "from-emerald-500 to-green-400",
+      "desc": "Vue and Nuxt framework"
     },
     {
       "id": 5,
-      "name": "Fatima Al-Hassan",
-      "role": "Backend Developer @ Shopify",
-      "avatar": "https://www.youtube.com/watch?v=OeEHJgzqS1k",
-      "rating": 5,
-      "text": "LearnFlow's Node.js course got me hired within 3 months of completion. The practical assignments mirror real-world challenges, and the certificate opened so many doors for me.",
-      "course": "Node.js & Express Backend"
+      "name": "Backend",
+      "icon": "🔧",
+      "courses": 154,
+      "color": "from-slate-500 to-gray-400",
+      "desc": "Server side development"
+    },
+    {
+      "id": 6,
+      "name": "AI & Machine Learning",
+      "icon": "🤖",
+      "courses": 113,
+      "color": "from-fuchsia-500 to-pink-400",
+      "desc": "Learn AI technologies"
     }
-  ],
-  "categories": [
-    { "id": 1, "name": "Web Development", "icon": "🌐", "courses": 245, "color": "from-blue-500 to-cyan-400", "desc": "Build modern, responsive websites from scratch" },
-    { "id": 2, "name": "UI/UX Design", "icon": "🎨", "courses": 132, "color": "from-pink-500 to-rose-400", "desc": "Design beautiful, user-centered experiences" },
-    { "id": 3, "name": "JavaScript", "icon": "⚡", "courses": 189, "color": "from-yellow-500 to-amber-400", "desc": "Master the language of the modern web" },
-    { "id": 4, "name": "React", "icon": "⚛️", "courses": 98, "color": "from-cyan-500 to-teal-400", "desc": "Build powerful UIs with React ecosystem" },
-    { "id": 5, "name": "Vue", "icon": "💚", "courses": 76, "color": "from-emerald-500 to-green-400", "desc": "Progressive framework for modern apps" },
-    { "id": 6, "name": "Backend", "icon": "🔧", "courses": 154, "color": "from-slate-500 to-gray-400", "desc": "Build scalable server-side applications" },
-    { "id": 7, "name": "Mobile App", "icon": "📱", "courses": 87, "color": "from-violet-500 to-purple-400", "desc": "Create native iOS and Android apps" },
-    { "id": 8, "name": "AI & Machine Learning", "icon": "🤖", "courses": 113, "color": "from-fuchsia-500 to-pink-400", "desc": "Shape the future with intelligent systems" }
   ]
 }
