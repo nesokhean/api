@@ -1,133 +1,206 @@
-{
-  "courses": [
-    {
-      "id": "c1",
-      "type": "course",
-      "title": "HTML & CSS Masterclass",
-      "instructor": "Sarah Johnson",
-      "cat": "Web Development",
-      "img": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?w=400&h=220&fit=crop",
-      "rating": 4.8,
-      "reviews": 2341,
-      "price": 29.99,
-      "orig": 89.99,
-      "badge": "Bestseller",
-      "bc": "amber",
-      "level": "Beginner",
-      "dur": "24 hrs",
-      "lessons": 128
-    },
-    {
-      "id": "c2",
-      "type": "course",
-      "title": "JavaScript: Beginner to Advanced",
-      "instructor": "Marcus Chen",
-      "cat": "JavaScript",
-      "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=220&fit=crop",
-      "rating": 4.9,
-      "reviews": 5872,
-      "price": 49.99,
-      "orig": 129.99,
-      "badge": "Top Rated",
-      "bc": "emerald",
-      "level": "All Levels",
-      "dur": "52 hrs",
-      "lessons": 312
-    }
-  ],
 
-  "books": [
-    {
-      "id": "b1",
-      "type": "book",
-      "title": "JavaScript: The Definitive Guide",
-      "author": "David Flanagan",
-      "cat": "JavaScript",
-      "cover": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=200&h=280&fit=crop",
-      "pages": 706,
-      "rating": 4.9,
-      "reviews": 3841,
-      "price": 24.99,
-      "orig": 49.99,
-      "badge": "Classic",
-      "bc": "amber",
-      "color": "#F59E0B",
-      "desc": "The complete reference for JS developers."
-    },
-    {
-      "id": "b2",
-      "type": "book",
-      "title": "Learning React",
-      "author": "Alex Banks & Eve Porcello",
-      "cat": "React",
-      "cover": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&h=280&fit=crop",
-      "pages": 310,
-      "rating": 4.7,
-      "reviews": 2210,
-      "price": 19.99,
-      "orig": 39.99,
-      "badge": "Bestseller",
-      "bc": "sky",
-      "color": "#06B6D4",
-      "desc": "Functional React patterns and Hooks."
-    }
-  ],
 
-  "videos": [
-    {
-      "id": "v1",
-      "type": "video",
-      "title": "React Hooks Deep Dive",
-      "instructor": "Emma Williams",
-      "cat": "React",
-      "thumb": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=220&fit=crop",
-      "dur": "1:42:18",
-      "views": "124K",
-      "rating": 4.9,
-      "reviews": 3210,
-      "price": 14.99,
-      "orig": 39.99,
-      "badge": "Top Video",
-      "bc": "amber",
-      "yt": "dGcsHMXbSOA",
-      "tags": ["React", "Hooks"]
-    },
-    {
-      "id": "v2",
-      "type": "video",
-      "title": "JavaScript Promises & Async/Await",
-      "instructor": "Marcus Chen",
-      "cat": "JavaScript",
-      "thumb": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=220&fit=crop",
-      "dur": "58:44",
-      "views": "89K",
-      "rating": 4.8,
-      "reviews": 2156,
-      "price": 9.99,
-      "orig": 24.99,
-      "badge": "Popular",
-      "bc": "emerald",
-      "yt": "_8gHHBlbziw",
-      "tags": ["JavaScript", "Async"]
-    }
-  ],
+const COURSES = [
+  {
+    id: 'c1',
+    type: 'course',
+    title: 'HTML & CSS Masterclass',
+    instructor: 'Sarah Johnson',
+    cat: 'Web Development',
+    img: 'https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg',
+    rating: 4.8,
+    reviews: 2341,
+    price: 29.99,
+    orig: 89.99,
+    badge: 'Bestseller',
+    bc: 'amber',
+    level: 'Beginner',
+    dur: '24 hrs',
+    lessons: 128,
+  },
 
-  "testimonials": [
-    {
-      "name": "Jessica Park",
-      "role": "Frontend Dev @ Google",
-      "avatar": "https://i.pravatar.cc/80?img=47",
-      "rating": 5,
-      "text": "LearnFlow transformed my career.",
-      "item": "React Course + Book"
-    },
-    {
-      "name": "Carlos Mendes",
-      "role": "Full Stack Eng @ Stripe",
-      "avatar": "https://i.pravatar.cc/80?img=12",
-      "rating": 5,
-      "text": "Best learning platform ever.",
-      "item": "Node.js Course + Videos"
-    }
-  ]
-}
+  {
+    id: 'c2',
+    type: 'course',
+    title: 'JavaScript: Beginner to Advanced',
+    instructor: 'Marcus Chen',
+    cat: 'JavaScript',
+    img: 'https://m.media-amazon.com/images/I/61ZxqBT1dvL._UF1000,1000_QL80_.jpg',
+    rating: 4.9,
+    reviews: 5872,
+    price: 49.99,
+    orig: 129.99,
+    badge: 'Top Rated',
+    bc: 'emerald',
+    level: 'All Levels',
+    dur: '52 hrs',
+    lessons: 312,
+  },
+
+  {
+    id: 'c3',
+    type: 'course',
+    title: 'Tailwind CSS Bootstrapt',
+    instructor: 'Priya Sharma',
+    cat: 'Web Development',
+    img: 'https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2021/04/From-Bootstrap-to-Tailwind-CSS-webmob-technoogies.png',
+    rating: 4.7,
+    reviews: 1893,
+    price: 34.99,
+    orig: 99.99,
+    badge: 'New',
+    bc: 'sky',
+    level: 'Intermediate',
+    dur: '18 hrs',
+    lessons: 96,
+  },
+
+  {
+    id: 'c4',
+    type: 'course',
+    title: 'Vue JS Complete Laravel',
+    instructor: 'Alex Rivera',
+    cat: 'Vue',
+    img: 'https://blog.vueschool.io/wp-content/uploads/2024/01/VS_Articles_Using_Vue_with_Laravel_1.png',
+    rating: 4.8,
+    reviews: 3214,
+    price: 44.99,
+    orig: 119.99,
+    badge: 'Popular',
+    bc: 'violet',
+    level: 'Intermediate',
+    dur: '38 hrs',
+    lessons: 220,
+  },
+
+  {
+    id: 'c5',
+    type: 'course',
+    title: 'React Frontend Course',
+    instructor: 'Emma Williams',
+    cat: 'React',
+    img: 'https://www.ropstam.com/wp-content/uploads/2024/03/how-to-create-new-react-native-project.jpg',
+    rating: 4.9,
+    reviews: 7109,
+    price: 54.99,
+    orig: 149.99,
+    badge: 'Bestseller',
+    bc: 'amber',
+    level: 'All Levels',
+    dur: '64 hrs',
+    lessons: 380,
+  },
+];
+
+
+
+const BOOKS = [
+  {
+    id: 'b1',
+    type: 'book',
+    title: 'JavaScript: The Definitive Guide',
+    author: 'David Flanagan',
+    cat: 'JavaScript',
+    cover: 'https://m.media-amazon.com/images/I/91hUer84PpL._AC_UF350,350_QL50_.jpg',
+    pages: 706,
+    rating: 4.9,
+    reviews: 3841,
+    price: 24.99,
+    orig: 49.99,
+    badge: 'Classic',
+    bc: 'amber',
+    color: '#F59E0B',
+    desc: 'The complete reference for JS developers, covering ES2023 features.',
+  },
+
+  {
+    id: 'b2',
+    type: 'book',
+    title: 'Learning React',
+    author: 'Alex Banks & Eve Porcello',
+    cat: 'React',
+    cover: 'https://m.media-amazon.com/images/I/91uFdkCJmAL._UF1000,1000_QL80_.jpg',
+    pages: 310,
+    rating: 4.7,
+    reviews: 2210,
+    price: 19.99,
+    orig: 39.99,
+    badge: 'Bestseller',
+    bc: 'sky',
+    color: '#06B6D4',
+    desc: 'Functional React patterns, Hooks, and state management from scratch.',
+  },
+];
+
+
+
+const VIDEOS = [
+  {
+    id: 'v1',
+    type: 'video',
+    title: 'React Hooks Deep Dive',
+    instructor: 'Emma Williams',
+    cat: 'React',
+    thumb: 'https://www.google.com/search?sca_esv=69538f729b95e5bf&rlz=1C5CHFA_enKH1145KH1149&sxsrf=ANbL-n5t2ur3HIGZXdr7gL3c9MoOq1RH7Q:1779880201824&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3sbM0Xv-BZKE_VrZb6-djVhOtEikQxVPaqfTMUjZRiWtKCoslmAGmF-50j-Z_XShN3dsrbyEphwEHB1x6LtBqP9NFimEJJP91qO2A__Q52WMYvlTibmaObT1PI19oKyYMGIVixrHXWTy7GpzEeUB8iA27stnC-8RvS-ZOGzZITpBohii4A&q=React+Hooks+Deep+Dive&sa=X&ved=2ahUKEwjPqbC5qtmUAxXz-DgGHbrkG3oQtKgLegQIEBAB&biw=1440&bih=812&dpr=2#fpstate=ive&vld=cid:899f0bfe,vid:xfKYYRE6-TQ,st:0',
+    dur: '1:42:18',
+    views: '124K',
+    rating: 4.9,
+    reviews: 3210,
+    price: 14.99,
+    orig: 39.99,
+    badge: 'Top Video',
+    bc: 'amber',
+    yt: 'dGcsHMXbSOA',
+    tags: ['React', 'Hooks', 'useState', 'useEffect'],
+  },
+
+  {
+    id: 'v2',
+    type: 'video',
+    title: 'JavaScript Promises & Async/Await',
+    instructor: 'Marcus Chen',
+    cat: 'JavaScript',
+    thumb: 'https://www.youtube.com/watch?v=PgZ9npYJZzU',
+    dur: '58:44',
+    views: '89K',
+    rating: 4.8,
+    reviews: 2156,
+    price: 9.99,
+    orig: 24.99,
+    badge: 'Popular',
+    bc: 'emerald',
+    yt: '_8gHHBlbziw',
+    tags: ['JavaScript', 'Async', 'Promises'],
+  },
+];
+
+
+
+
+const TESTIMONIALS = [
+  {
+    name: 'Jessica Park',
+    role: 'Frontend Dev @ Google',
+    avatar: 'https://wwf.ca/wp-content/uploads/2020/02/Jessica-Park-2-scaled-e1583975308936.jpg',
+    rating: 5,
+    text: `
+      LearnFlow's course + book bundle transformed my career.
+      The structured curriculum and the supplementary e-books
+      gave me theoretical depth I'd been missing.
+      Landed my dream job at Google!
+    `,
+    item: 'React Frontend Course + Learning React',
+  },
+
+  {
+    name: 'Carlos Mendes',
+    role: 'Full Stack Eng @ Stripe',
+    avatar: 'https://eprc-strath.org/eu/wp-content/uploads/sites/9/elementor/thumbs/Carlos_Mendez-rbi5voyi5k7u5r5ufl1r3rze0kqp3b1o2zeb9afmgg.jpg',
+    rating: 5,
+    text: `
+      From zero to full-stack in 8 months using LearnFlow's
+      video lessons and courses. The video quality is outstanding.
+    `,
+    item: 'Node.js Backend Course + API Videos',
+  },
+];
